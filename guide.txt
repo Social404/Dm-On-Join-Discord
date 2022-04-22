@@ -1,0 +1,15 @@
+pip install requests
+pip install discord
+pip install colorama
+pip install discum
+
+tokens.txt (Put your tokens, more = better, need stay already in the server)
+sent.txt (will be saved ids of scraped ids)
+bad.txt (bad tokens will be saved here)
+
+Listener Token: (Token used to check new joiner, will not be used for dming)
+Server ID: (Id of the server in order to check if tokens has been kicked/banned from the server)
+Channel ID: (Target Channel ID)
+Proxy: (If you want use proxy, if not leave empty)
+
+Edit your message by the py file (line 9)
