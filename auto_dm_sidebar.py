@@ -16,7 +16,7 @@ if os.name == 'nt':
 else:
 	os.system("clear")
 
-print(f"{Fore.RED}MassDM Live From SideBar | Made by $ffe | v0.1\n{Fore.RESET}")
+print(f"{Fore.RED}MassDM Live From SideBar | v0.1\n{Fore.RESET}")
 
 token = input(f"{Fore.RED}Listener Token: {Fore.RESET}")
 server_id = input(f"{Fore.RED}Server ID: {Fore.RESET}")
@@ -222,3 +222,5 @@ while True:
 	except Exception as error:
 		print(error)
 		pass
+	
+	# Not By Social404
